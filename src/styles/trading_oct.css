@@ -1,0 +1,311 @@
+.hui38 {
+  color: #292d38;
+}
+.huia3 {
+  color: #858ca3;
+}
+.hui70 {
+  color: #555e70;
+}
+.white {
+  color: #ffffff;
+}
+.trad_box {
+  padding-top: 47px;
+  padding-bottom: 50px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.trad_box .trad_kuan {
+  padding-top: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(56, 110, 219, 0.2);
+  box-shadow: 0px 4px 10px 0px rgba(56, 110, 219, 0.2);
+  overflow: hidden;
+}
+.trad_box .trad_kuan .trad_head {
+  border-bottom: #dce0ec solid 1px;
+  margin-bottom: 38px;
+  position: relative;
+  height: 94px;
+  z-index: 200;
+}
+.trad_box .trad_kuan .trad_head .tit {
+  padding-left: 26px;
+  display: block;
+  color: #292d38;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+.trad_box .trad_kuan .trad_head .head_ul {
+  float: left;
+}
+.trad_box .trad_kuan .trad_head .head_ul li {
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+}
+.trad_box .trad_kuan .trad_head .head_ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  color: #535d6f;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  padding: 10px 24px 25px 24px;
+}
+.trad_box .trad_kuan .trad_head .head_ul li.line {
+  background: url(../assets/trading/pic_huakuai.png) no-repeat center bottom;
+}
+.trad_box .trad_kuan .trad_head .zhehe {
+  margin-top: -35px;
+  padding-right: 40px;
+  z-index: 500;
+  float: right;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav {
+  margin-right: 170px;
+  width: 180px;
+  height: 38px;
+  float: left;
+  border-radius: 2px;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav .yellow {
+  color: #f2ad3e!important;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav p {
+  display: block;
+  line-height: 40px;
+  font-size: 13px;
+  color: #555E70!important;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav .set {
+  background: url(../assets/trading/pic_daohang_weizhaikai.png) 150px 18px no-repeat #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav .select {
+  color: #f2ad3e!important;
+  background: url(../assets/trading/pic_daohang_zhaikai.png) 150px 18px no-repeat #ffffff;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav .new {
+  width: 178px;
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border: #e5e8f1 solid 1px;
+  z-index: 200;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav ul {
+  padding-left: 0px;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav ul li {
+  line-height: 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #848e9a;
+  width: 178px;
+  cursor: pointer;
+}
+.trad_box .trad_kuan .trad_head .zhehe .nav ul li:hover {
+  background: #e5e8f1;
+  color: #555e70;
+}
+.trad_box .trad_kuan .trad_head .zhehe .cny {
+  padding-left: 11%;
+  font-size: 14px;
+  line-height: 30px;
+}
+.trad_box .trad_kuan .account {
+  padding-left: 22px;
+}
+.trad_box .trad_kuan .account ul li {
+  float: left;
+  width: 208px;
+  background: url(../assets/trading/pic_zcgl.png) no-repeat;
+  margin-right: 15px;
+  padding-top: 23px;
+  padding-left: 28px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.trad_box .trad_kuan .account ul li.greenbg {
+  background: url(../assets/trading/pic_otc_bg.png) no-repeat;
+}
+.trad_box .trad_kuan .account ul li.greenbg span {
+  color: #ffffff;
+}
+.trad_box .trad_kuan .account ul li.redbg {
+  background: url(../assets/trading/pic_ggjy_bg.png) no-repeat;
+}
+.trad_box .trad_kuan .account ul li.redbg span {
+  color: #ffffff;
+}
+.trad_box .trad_kuan .account ul li.zibg {
+  background: url(../assets/trading/pic_hyjy_bg.png) no-repeat;
+}
+.trad_box .trad_kuan .account ul li.zibg span {
+  color: #ffffff;
+}
+.trad_box .trad_kuan .radio {
+  width: 245px;
+  float: left;
+  padding-top: 8px;
+  padding-left: 15px;
+}
+.trad_box .trad_kuan .radio .checkb input {
+  padding: 0;
+  margin: 0;
+  height: 22px;
+  width: 14px;
+  float: left;
+  position: relative;
+  left: 0;
+  opacity: 0;
+  margin-top: 1px;
+  margin-top: 3px;
+}
+.trad_box .trad_kuan .radio .checkb label {
+  float: left;
+  line-height: 22px;
+  -webkit-transition: color 1s ease;
+  transition: color 1s ease;
+  padding: 0 0 0 35px;
+  color: #555e70;
+}
+.trad_box .trad_kuan .radio .checkb:not(#foo) > input + label {
+  background: url(../assets/trading/checkbox2.png) no-repeat 0 0px;
+  height: 22px;
+}
+.trad_box .trad_kuan .radio .checkb:not(#foo) > input[type=checkbox]:checked + label,
+.trad_box .trad_kuan .radio .checkb:not(#foo) > input[type=checkbox]:checked + label {
+  background-position: 0px -31px;
+}
+.trad_box .trad_kuan .search {
+  width: 120px;
+  height: 30px;
+  border: #BAC1DA solid 1px;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px;
+  margin-right: 40px;
+  background: url(../assets/trading/icon_sousuo.png) no-repeat 133px center;
+}
+.trad_box .trad_kuan .list {
+  margin-left: 28px;
+  margin-right: 20px;
+  padding-left: 35px;
+  padding-right: 40px;
+}
+.trad_box .trad_kuan .list .bz {
+  width: 20%;
+}
+.trad_box .trad_kuan .list .ky {
+  width: 22%;
+}
+.trad_box .trad_kuan .list .dj {
+  width: 22%;
+}
+.trad_box .trad_kuan .list .gz {
+  width: 22%;
+}
+.trad_box .trad_kuan .list .cz {
+  width: 14%;
+}
+.trad_box .trad_kuan .list .up_tit {
+  overflow: hidden;
+  border-bottom: #DCE0EC solid 1px;
+  padding-left: 35px;
+  padding-right: 40px;
+}
+.trad_box .trad_kuan .list .up_tit span {
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  color: #858ca3;
+  position: relative;
+}
+.trad_box .trad_kuan .list .up_tit span i {
+  width: 7px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.trad_box .trad_kuan .list .up_tit span i.up {
+  background: url(../assets/trading/pic_daohang_zhaikai.png) no-repeat;
+  top: 18px;
+  left: 30px;
+}
+.trad_box .trad_kuan .list .up_tit span i.down {
+  background: url(../assets/trading/pic_daohang_weizhaikai.png) no-repeat;
+  top: 24px;
+  left: 30px;
+}
+.trad_box .trad_kuan .list .up_tit .txt_right {
+  text-align: right;
+}
+.trad_box .trad_kuan .list .down_cont {
+  clear: both;
+  padding-left: 35px;
+  padding-right: 40px;
+}
+.trad_box .trad_kuan .list .down_cont ul li {
+  clear: both;
+}
+.trad_box .trad_kuan .list .down_cont ul li span {
+  float: left;
+  display: block;
+  height: 90px;
+  line-height: 90px;
+  color: #292d38;
+  font-size: 13px;
+}
+.trad_box .trad_kuan .list .down_cont ul li span a {
+  color: #ffae36;
+}
+.trad_box .trad_kuan .list .down_cont ul li .cz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (max-width: 1215px) {
+  .trad_box .trad_kuan .trad_head .head_ul li a {
+    font-size: 12px;
+    padding: 8px;
+    padding: 10px 24px 25px 24px;
+  }
+  .cny {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .trad_box .trad_kuan .trad_head .zhehe {
+    padding-right: 5px;
+    margin-top: -144px;
+  }
+  .trad_box .trad_kuan .list .down_cont {
+    padding-right: 2%;
+  }
+  .trad_box .trad_kuan .list .down_cont ul li span {
+    height: 60px;
+    line-height: 35px;
+  }
+  .trad_box .trad_kuan .list {
+    margin-left: 0px;
+    margin-right: -7px;
+    padding-left: 35px;
+    padding-right: 40px;
+  }
+  .trad_box .trad_kuan .list .down_cont ul li span {
+    font-size: 12px;
+  }
+}

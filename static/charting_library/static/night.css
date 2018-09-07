@@ -1,0 +1,154 @@
+.chart-page {
+  background-color: #161920; }
+  .chart-page body {
+    color: #61688A; }
+  .chart-page .pane-legend-icon-container svg {
+    fill: #61688A; }
+  .chart-page .tv-side-toolbar .tools-group .button {
+    background-color: #161920;
+    border-color: #161920; }
+    .chart-page .tv-side-toolbar .tools-group .button .main.text-as-icon {
+      color: #555E70; }
+    .chart-page .tv-side-toolbar .tools-group .button svg {
+      fill: #555E70; }
+    .chart-page .tv-side-toolbar .tools-group .button.selected, .chart-page .tv-side-toolbar .tools-group .button:hover, .chart-page .tv-side-toolbar .tools-group .button:active {
+      background-color: #292D38;
+      border-color: #292D38; }
+      .chart-page .tv-side-toolbar .tools-group .button.selected svg, .chart-page .tv-side-toolbar .tools-group .button:hover svg, .chart-page .tv-side-toolbar .tools-group .button:active svg {
+        fill: #BAC1DA; }
+      .chart-page .tv-side-toolbar .tools-group .button.selected .main.text-as-icon, .chart-page .tv-side-toolbar .tools-group .button:hover .main.text-as-icon, .chart-page .tv-side-toolbar .tools-group .button:active .main.text-as-icon {
+        color: #BAC1DA; }
+      .chart-page .tv-side-toolbar .tools-group .button.selected .side, .chart-page .tv-side-toolbar .tools-group .button:hover .side, .chart-page .tv-side-toolbar .tools-group .button:active .side {
+        border-left: 1px solid transparent; }
+    .chart-page .tv-side-toolbar .tools-group .button:active svg {
+      fill: #555E70; }
+  .chart-page .charts-popup-list {
+    background-color: #161920;
+    color: #555E70;
+    border-color: #292D38; }
+    .chart-page .charts-popup-list .separator {
+      border-top: 1px solid #c1c8ec; }
+    .chart-page .charts-popup-list .item {
+      background-color: #161920;
+      color: #555E70; }
+      .chart-page .charts-popup-list .item.active {
+        background-color: #292D38;
+        color: #BAC1DA; }
+    .chart-page .charts-popup-list .icon-wrap svg {
+      fill: #555E70; }
+  .chart-page .list-inner .item {
+    background-color: #161920; }
+    .chart-page .list-inner .item.active {
+      background-color: #292D38; }
+      .chart-page .list-inner .item.active svg {
+        fill: #BAC1DA; }
+      .chart-page .list-inner .item.active span.title {
+        color: #BAC1DA; }
+    .chart-page .list-inner .item span.title {
+      color: #555E70; }
+  .chart-page .favored-list-container span:hover {
+    background-color: #292D38; }
+  .chart-page .tv-floating-toolbar {
+    background-color: #292D38;
+    border-color: #BAC1DA; }
+    .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__drag, .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper input {
+      background-color: #161920; }
+      .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__drag svg, .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper input svg {
+        fill: #555E70; }
+    .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__widget {
+      border-color: #161920; }
+      .chart-page .tv-floating-toolbar .tv-floating-toolbar__widget-wrapper .tv-floating-toolbar__widget svg {
+        fill: #555E70; }
+  .chart-page .apply-common-tooltip {
+    background-color: #0C0D0F;
+    border: 1px solid transparent;
+    color: #61688A; }
+    .chart-page .apply-common-tooltip:before {
+      border: 1px solid transparent; }
+  .chart-page .chart-page .layout__area--center .chart-container.active {
+    border: 1px solid #161920 !important;
+    background: #161920;
+    outline: 3px dashed green; }
+  .chart-page .chart-controls-bar {
+    background-color: #161920; }
+  .chart-page .tv-side-toolbar .tools-group .button:hover,
+  .chart-page .header-chart-panel .tools-group .button:hover {
+    background-color: #292D38; }
+  .chart-page .tv-side-toolbar .button:hover,
+  .chart-page .header-chart-panel .button:hover {
+    /* background: #292D38; */
+    }
+  .chart-page .tv-side-toolbar .group,
+  .chart-page .header-chart-panel .group {
+    float: left; }
+    .chart-page .tv-side-toolbar .group .button,
+    .chart-page .header-chart-panel .group .button {
+      font-weight: normal;
+      color: #555E70;
+      }
+      .chart-page .tv-side-toolbar .group .button svg,
+      .chart-page .header-chart-panel .group .button svg {
+        fill: #555E70; }
+      .chart-page .tv-side-toolbar .group .button:hover, .chart-page .tv-side-toolbar .group .button.selected,
+      .chart-page .header-chart-panel .group .button:hover,
+      .chart-page .header-chart-panel .group .button.selected {
+        background: #292D38;
+        color: #BAC1DA;
+        }
+      .chart-page .tv-side-toolbar .group .button:hover, .chart-page .tv-side-toolbar .group .button.selected,
+      .chart-page .header-chart-panel .group .button:hover,
+      .chart-page .header-chart-panel .group .button.select {
+        background: #292D38;
+        color: #BAC1DA;
+        }
+        .chart-page .tv-side-toolbar .group .button:hover svg, .chart-page .tv-side-toolbar .group .button.selected svg,
+        .chart-page .header-chart-panel .group .button:hover svg,
+        .chart-page .header-chart-panel .group .button.selected svg {
+          fill: #BAC1DA; }
+      .chart-page .tv-side-toolbar .group .button:active,
+      .chart-page .header-chart-panel .group .button:active {
+        color: #555E70; }
+        .chart-page .tv-side-toolbar .group .button:active svg,
+        .chart-page .header-chart-panel .group .button:active svg {
+          fill: #555E70; }
+  .chart-page .tv-side-toolbar .header-group-fullscreen,
+  .chart-page .header-chart-panel .header-group-fullscreen {
+    float: right;
+    padding-right: 5px; }
+  .chart-page .tv-side-toolbar .header-group-properties, .chart-page .tv-side-toolbar .header-group-indicators,
+  .chart-page .header-chart-panel .header-group-properties,
+  .chart-page .header-chart-panel .header-group-indicators {
+    float: none; }
+  .chart-page .tv-side-toolbar .tools-group:not(:first-child):not(.no-delimiter):before {
+    background: #555E70; }
+  .chart-page .button svg {
+    fill: #555E70; }
+  .chart-page .tv-side-toolbar {
+    border-right: 1px solid #161920;
+    background-color: #161920; }
+    .chart-page .tv-side-toolbar .tools-group .button.selected .side {
+      border-left: 1ps solid transparent; }
+    .chart-page .tv-side-toolbar .tools-group .button.selected .side, .chart-page .tv-side-toolbar .tools-group .button.selected .main {
+      background: #292D38; }
+  .chart-page .chart-container {
+    background-color: #161920;
+    border: 1px solid transparent; }
+  .chart-page .tv-close-panel {
+    background-color: #2b304a;
+    border: none; }
+  .chart-page .button {
+    background-color: #161920;
+    border-color: #161920;
+    }
+    .chart-page .button:hover {
+      /* background-color: #555E70; */
+      }
+    .chart-page .button.selected, .chart-page .button.active {
+      background-color: #292D38 !important; }
+      .chart-page .button.selected svg, .chart-page .button.active svg {
+        fill: #161920; }
+
+.pane-legend-item-value-wrap .pane-legend-item-value-title__main, .pane-legend-item-value-wrap .pane-legend-item-value__main {
+    font-size: 9pt;
+    line-height: 26px;
+}
